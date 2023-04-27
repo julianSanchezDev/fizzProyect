@@ -57,7 +57,7 @@ const Home = () => {
               Donde Estamos ?
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=1126878036"
+              href="https://api.whatsapp.com/send?phone=1133856648"
               target="_blank"
               rel="noopener noreferrer"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 text-lg"
