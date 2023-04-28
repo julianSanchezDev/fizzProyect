@@ -1,11 +1,11 @@
 import './App.css'
 import Home from './components/homeCarpeta/Home'
-import Sliders from "./components/homeCarpeta/Sliders";
 import CardsRellenos from "./components/homeCarpeta/CardsRellenos";
 import Clientes from "./components/homeCarpeta/Clientes";
 import Formulario from "./components/homeCarpeta/Formulario";
 import PiePagina from "./components/homeCarpeta/PiePagina";
 import PreguntasFrecuentes from './components/homeCarpeta/PreguntasFrecuentes';
+import FondoHome from './components/homeCarpeta/FondoHome';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Home/>
-      <Sliders />
+      <FondoHome/>
       <CardsRellenos/>
       <Clientes/>
       <PreguntasFrecuentes/>

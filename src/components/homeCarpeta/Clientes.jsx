@@ -14,7 +14,6 @@ const Clientes = () => {
      Cliente3,
      Cliente4,
      Cliente5
-    
     ];
   
     useEffect(() => {

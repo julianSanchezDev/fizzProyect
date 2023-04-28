@@ -2,107 +2,132 @@ import React from "react";
 import logoMas from "./imagenes/mas.png"
 
 const PreguntasFrecuentes = () => {
-  const mas= [logoMas];
+  const mas = [logoMas];
   return (
 
     <>
-<div class="collapse text-center mx-auto max-w-2xl">
-  <input type="checkbox" class="peer" />
-  <div class="collapse-title">
-    <div class="flex items-center">
-      <img src={mas} alt="Icono" class="w-5 h-5 mr-2" />
-      <a href="#" class="inline-block align-middle text-base">
-        Como funciona una Agencia de Marketing en Argentina ?
-      </a>
-    </div>
-  </div>
-  <div class="collapse-content bg-transparent text-black dark:text-gray-200">
-    <p>
-      Las mejores agencias de marketing en Argentina deben estar preparadas para enfrentar los desafíos del panorama económico y competitivo del momento. Para lograr que una empresa tenga éxito y se destaque sobre el resto, las agencias de marketing digital implementan las estrategias publicitarias que más se adecúen al sector de tu empresa o emprendimiento. Detrás de toda estrategia exitosa, existirán objetivos bien planteados, profesionales con la formación adecuada, tecnologías innovadoras y resultados con mediciones precisas. Una agencia de marketing online se encarga de sostener cada uno de esos puntos, brindándole un plan personalizado a cada cliente.
-    </p>
-  </div>
-</div>
+      <h3 className="py-10 text-center">Preguntas Frecuentes</h3>
+
+      <div className="collapse text-center mx-auto max-w-2xl">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title">
+          <div className="flex items-center">
+            <img src={mas} alt="Icono" className="w-5 h-5 mr-2" />
+            <a href="#" className="inline-block align-middle text-base">
+              ¿Cuál es la diferencia entre los mensajes a mi market place y los mensajes a mi cuenta de Instagram?
+            </a>
+          </div>
+        </div>
+        <div className="collapse-content bg-transparent text-black dark:text-gray-200">
+          <p>
+            Los mensajes de Market Place son los que llegan a tu casilla de messenger de Facebook, por productos que publicaste ahi para vender. Y los de instagram, son los mensajes que llegan a tu cuenta de instagram, derivados de pubicidades, o de forma organica.
+          </p>
+        </div>
+      </div>
 
 
-<div class="collapse text-center mx-auto max-w-2xl">
-  <input type="checkbox" class="peer" />
-  <div class="collapse-title">
-    <div class="flex items-center">
-      <img src={mas} alt="Icono" class="w-5 h-5 mr-2" />
-      <a href="#" class="inline-block align-middle text-base">
-        Cuando es momento para contratar una empresa de Marketing Digital ?
-      </a>
-    </div>
-  </div>
-  <div class="collapse-content bg-transparent text-black dark:text-gray-200">
-    <p>
-    Los clientes solicitan asesoramiento cuando quieren aumentar o mejorar algunos aspectos de su empresa o negocio. Es posible que nunca se haya empleado una estrategia de marketing digital, o también puede pasar que se han empleado algunos métodos aislados pero que no logran darle presencia online a la empresa.
+      <div className="collapse text-center mx-auto max-w-2xl">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title">
+          <div className="flex items-center">
+            <img src={mas} alt="Icono" className="w-5 h-5 mr-2" />
+            <a href="#" className="inline-block align-middle text-base">
+              ¿Cómo puedo estar seguro de que los seguidores que me proporcionen son de calidad y no bots o cuentas falsas?
+            </a>
+          </div>
+        </div>
+        <div className="collapse-content bg-transparent text-black dark:text-gray-200">
+          <p>
+            Puede estar seguro de que los nuevos seguidores que obtenga en instagram son personas reales ya que son personas que vieron un anuncio de su negocio y decidieron seguirlo.
+          </p>
+        </div>
+      </div>
 
-En cualquier caso, el momento adecuado para contratar agencia de marketing es siempre que quieras dar un paso más en la inversión para aumentar tus ventas, fidelizar clientes, atraer nuevos consumidores, generar visitas o impulsar tu marca.
+      <div className="collapse text-center mx-auto max-w-2xl">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title">
+          <div className="flex items-center">
+            <img src={mas} alt="Icono" className="w-5 h-5 mr-2" />
+            <a href="#" className="inline-block align-middle text-base">
+              ¿Qué tan rápido puedo esperar resultados en mi posicionamiento SEO?
+            </a>
+          </div>
+        </div>
+        <div class="collapse-content bg-transparent text-black dark:text-gray-200">
+          <p>
+            En un sitio web nuevo podrian ser de 10 a 11 meses, generalmente es un poco mas rapido pero estos son los plazos maximos establecidos.
+          </p>
+        </div>
+      </div>
 
-Los objetivos pueden ser variados, pero los resultados están garantizados.
-    </p>
-  </div>
-</div>
+      <div className="collapse text-center mx-auto max-w-2xl">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title">
+          <div className="flex items-center">
+            <img src={mas} alt="Icono" className="w-5 h-5 mr-2" />
+            <a href="#" className="inline-block align-middle text-base">
+              ¿Cómo se comunicarán conmigo cuando compro el servicio?
+            </a>
+          </div>
+        </div>
+        <div className="collapse-content bg-transparent text-black dark:text-gray-200 max-w-xl mx-auto text-center">
+
+          <p className="my-4">
+            Usted una vez tiene el servicio, pasa a ser atendido por un agente de cuenta, quien se encarga de ser el enlace entre su negocio y nuestro servicio.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div className="collapse text-center mx-auto max-w-2xl">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title">
+          <div className="flex items-center">
+            <img src={mas} alt="Icono" className="w-5 h-5 mr-2" />
+            <a href="#" className="inline-block align-middle text-base">
+              ¿Tiene algún costo adicional la creación de contenido o publicidad en mi cuenta de Instagram o en mi sitio web?
+            </a>
+          </div>
+        </div>
+        <div className="collapse-content bg-transparent text-black dark:text-gray-200 max-w-xl mx-auto text-center">
+
+          <p className="my-4">
+            La creación de contenido no tiene ningún tipo de costo adicional.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div className="collapse text-center mx-auto max-w-2xl">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title">
+          <div className="flex items-center">
+            <img src={mas} alt="Icono" className="w-5 h-5 mr-2" />
+            <a href="#" className="inline-block align-middle text-base">
+              ¿Ademas de abonar el servicio, tengo que pagar algo mas?
+            </a>
+          </div>
+        </div>
+        <div className="collapse-content bg-transparent text-black dark:text-gray-200 max-w-xl mx-auto text-center">
+
+          <p className="my-4">
+            Si, además del servicio usted tiene que destinar un presupuesto en publicidad, para que podamos anunciar en las distintas plataformas, Market Place, Facebook Ads, Google Ads etc.
+          </p>
+
+        </div>
+
+      </div>
 
 
-<div class="collapse text-center mx-auto max-w-2xl">
-  <input type="checkbox" class="peer" />
-  <div class="collapse-title">
-    <div class="flex items-center">
-      <img src={mas} alt="Icono" class="w-5 h-5 mr-2" />
-      <a href="#" class="inline-block align-middle text-base">
-        Como se que servicio me conviene mas ?
-      </a>
-    </div>
-  </div>
-  <div class="collapse-content bg-transparent text-black dark:text-gray-200 max-w-xl mx-auto text-center">
-  <p class="my-4">
-    Una agencia de marketing digital en Buenos Aires con trayectoria y experiencia debe ofrecer servicios que apunten a objetivos distintos, pero que se puedan integrar en una sola estrategia.
-  </p>
-  <p class="my-4">
-    Un rubro puede ser impulsado a través de un área, y luego esta campaña puede integrarse con otras áreas. Podrás elegir entre anuncios en Google, estrategias de diseño web, creación de E-Commerce, campañas a través de redes sociales.
-  </p>
-  <p class="my-4">
-    No existen recetas mágicas. Por eso, sabemos que las estrategias pueden ir variando y asociándose unas a otras para mejorar los resultados.
-  </p>
-  <p class="my-4">
-    Asimismo, la elección de la estrategia de marketing digital también dependerá de la inversión en tiempo y dinero que se pueda emplear. Desde Buhomedia nos aseguramos que obtengas el presupuesto que mejor se adecúe a tus expectativas y necesidades.
-  </p>
-</div>
-
-</div>
-
-
-<div class="collapse text-center mx-auto max-w-2xl">
-  <input type="checkbox" class="peer" />
-  <div class="collapse-title">
-    <div class="flex items-center">
-      <img src={mas} alt="Icono" class="w-5 h-5 mr-2" />
-      <a href="#" class="inline-block align-middle text-base">
-        Como pedir un presupuesto ?
-      </a>
-    </div>
-  </div>
-  <div class="collapse-content bg-transparent text-black dark:text-gray-200">
-    <p>
-    En cualquier momento te podrás poner en contacto con nosotros a través de nuestro formulario, nuestro e-mail o teléfonos de contacto.
-
-El presupuesto final dependerá de los servicios elegidos, la estrategia a emplear, los resultados esperados a corto y largo plazo. Los técnicos de nuestra agencia de marketing online te asesorarán en cada consulta que tengas y te ayudarán a tomar las decisiones adecuadas.
-
-Es importante que antes de cualquier cotización, conozcamos cómo funciona tu negocio y qué te gustaría desarrollar.
-    </p>
-  </div>
-</div>
 
 
 
-   
 
-   
-    
+
     </>
-   
+
   );
 };
 

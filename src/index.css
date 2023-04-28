@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h2 {
+h2, h3 {
 
 @apply font-sans text-3xl font-bold;
 
@@ -63,4 +63,11 @@ p{
     letter-spacing: normal;
     opacity: 1;
   }
+}
+
+#piePaginaPrueba{
+
+  background-color: #ff2301;
+
+
 }

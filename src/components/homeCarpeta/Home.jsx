@@ -27,10 +27,10 @@ const Home = () => {
         <div className="block lg:hidden">
           <button
             id="boton"
-            class="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:border-white"
+            className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:border-white"
           >
             <svg
-              class="fill-current h-3 w-3"
+              className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -46,21 +46,21 @@ const Home = () => {
           <div className="text-sm lg:flex-grow">
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 mr-4 text-lg"
+              className="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 mr-4 text-lg font-bold"
             >
               Nosotros
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 mr-4 text-lg"
+              className="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 mr-4 text-lg font-bold"
             >
               Donde Estamos ?
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=1133856648"
+              href="https://api.whatsapp.com/send?phone=5491133856648"
               target="_blank"
               rel="noopener noreferrer"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 text-lg"
+              className="block mt-4 lg:inline-block lg:mt-0 text-gray-800 hover:text-gray-700 hover:border-purple-500 border-b-2 border-transparent -mb-2 text-lg font-bold"
             >
               Contactanos
             </a>
@@ -68,11 +68,12 @@ const Home = () => {
         </div>
       </nav>
 
-      <div class="max-w-lg mx-auto">
-  <h1 class="text-4xl font-bold tracking-in-contract text-gray-900 leading-tight text-center mb-8">Como Vender Más ?</h1>
-  <p class="text-gray-700 leading-loose text-lg">Eso es lo que seguramente buscas en Google para mejorar tu negocio, nosotros te proponemos otra solución, deja tus datos en nuestro formulario de abajo para que te contemos que podemos hacer por tu negocio.</p>
-</div>
-
+      <div className="text-center py-10">
+        <h1 className="text-3xl font-bold mb-4">¿Cómo vender más?</h1>
+      <p className="max-w-md mx-auto px-4 text-gray-700 leading-relaxed">
+      Eso es lo que seguramente buscas en Google para mejorar tu negocio, nosotros te proponemos otra solución, deja tus datos en nuestro formulario de abajo para que te contemos que podemos hacer por tu negocio
+      </p>
+    </div>
       <div className="relative">
         <WspIcono />
       </div>
